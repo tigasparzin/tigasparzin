@@ -1,0 +1,212 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: #EF5350;
+}
+  
+main{
+  height: 93vh;
+   flex: 1;
+}
+
+footer{
+  height: 10vh;
+}
+
+button{
+  background-color: transparent;
+  border: transparent;
+  margin: 30px 20px;
+}
+
+
+
+a{
+  color: #BC2929;
+  text-decoration-color: #BC2929;
+}
+
+.hidden{
+  display: none;
+}
+
+.shortcut{
+  text-align: center;
+  padding: 10px;
+}
+
+.shortcut:hover{
+  padding: 8px;
+  border: 3px;
+  border: solid;
+  border-color: #C62828;
+}
+
+
+.icon{
+  font-size: 50px;
+  font-weight: 600;
+  color: #000;
+  font-family: "comfortaa";
+  margin-top: 5px;
+}
+
+.nomeApp{
+  margin-top: -10px;
+}
+
+
+
+.taskbar{
+  background-color: #BC2929;
+  position: absolute;
+  bottom: 0px;
+  }
+
+.taskbar:only-child{
+  margin-top: 10px;
+}
+
+
+.taskIcon{
+  text-align: center;
+  justify-content: center;
+  margin: 0px 10px;
+  font-size: 20px;
+  padding: 0px 5px  ;
+}
+.taskIcon:hover{
+  background-color: #D50000;
+}
+
+.logoBorder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  display: block;
+  margin: auto;
+}
+.pesquisa{
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #d9d9d950;
+  
+  }
+.menu{
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #D9D9D9;
+
+  }
+
+  .nome{
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+
+
+
+
+.janela {
+  position: absolute;
+  border: 1px solid #000;
+  top: 0%;
+  left: 10%;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 250px;
+}
+
+.janela-titulo {
+  background-color: #BC2929;
+  color: #fff;
+  padding: 0.5rem;
+  cursor: move;  
+  user-select: none;
+  font-weight: bold;
+  font-size: larger;
+  position: relative; 
+}
+
+.janela-corpo {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem; 
+  font-size: 1rem; 
+}
+
+.fechar {
+  margin: 0px;
+  position: absolute; 
+  top: 0px; 
+  right: 0px; 
+  background-color: #BC2929; 
+  color: white; 
+  border: none; 
+  font-size: 1rem; 
+  width: 30px; 
+  height: 30px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.fechar:hover {
+  background-color: darkred; 
+}
+
+.hidden {
+  display: none; 
+}
+
+.transicao {
+  transition: all 0.3s ease; 
+}
+
+
+
+
+
+/* mobile*/
+@media only screen and (max-width: 767px){
+
+
+}
+
+
+
+/* tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    
+}
+
+
+
+/* notebook*/
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+        
+}
+
+
+
+/* desktop*/
+@media only screen and (min-width: 1440px){
+    
+
+
+
+    
+}
